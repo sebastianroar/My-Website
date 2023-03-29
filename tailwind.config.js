@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,7 +12,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
+        helvetica: "Helvetica, Arial, sans-serif",
+      },
+      dropShadow: {
+        black: "0 30px 30px rgba(0, 0, 0, 0.15)",
       },
     },
   },
